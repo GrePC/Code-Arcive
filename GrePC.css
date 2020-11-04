@@ -398,75 +398,10 @@ h1{
   color: gold;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:768px) {
+@media screen and (max-width:768px) and (min-width:480px){
   body {
-    display: none;
+    display: flex;
+    
   }
 
 }
