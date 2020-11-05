@@ -1,20 +1,22 @@
 .bg1 {
-  background: url("../Images/GrePCcompanyImage.jpg")center/cover no-repeat fixed;
+  background: url("Images/GrePCcompanyImage.jpg")center/cover no-repeat fixed;
 }
 
 .bg2 {
-  background-image: url("../Images/GrePCDeals.jpg");
+  background-image: url("Images/GrePCDeals.jpg");
+  background-repeat: repeat;
+  background-size: 50%;
 }
 
 .bg3 {
-  background-image: url("../Images/GrePCAllAboutU.jpg");
+  background-image: url("Images/GrePCAllAboutU.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
 .bg4 {
-  background-image: url("../Images/GrePCContactUs2.jpg");
+  background-image: url("Images/GrePCContactUs2.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
