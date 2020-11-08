@@ -434,8 +434,9 @@ input[type="password"] {
   }
 
   a {
-    font-size: 5px;
+    font-size: fixed;
   }
+
   .select-box {
     padding-bottom: 20%;
   }
