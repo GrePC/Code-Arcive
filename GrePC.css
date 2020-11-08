@@ -1,5 +1,8 @@
 .bg1 {
-  background: url("Images/GrePCcompanyImage.jpg")center/cover no-repeat fixed;
+  background: url("Images/GrePCcompanyImage.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .bg2 {
@@ -141,7 +144,7 @@ nav {
   align-items: center;
   height: 120px;
   background-color: rgba(0, 0, 0, 0.5);
-  width: 120;
+  padding: 0;
 }
 
 .Con {
@@ -407,6 +410,7 @@ input[type="password"] {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    font-size: 100%;
   }
 
   ul {
@@ -432,11 +436,7 @@ input[type="password"] {
   a {
     font-size: 5px;
   }
-
-  .logo {
-    font-size: -100px;
+  .select-box {
+    padding-bottom: 20%;
   }
-.loginbox {
-  
-}
 }
