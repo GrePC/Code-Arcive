@@ -419,6 +419,7 @@ input[type="password"] {
     flex-wrap: wrap;
     padding-right: 0px;
     padding-top: 130px;
+    padding-left: 20px;
   }
 
   nav {
@@ -439,5 +440,9 @@ input[type="password"] {
 
   .select-box {
     padding-bottom: 20%;
+  }
+  .logo {
+    font-size: 40px;
+    word-spacing: 20px;
   }
 }
