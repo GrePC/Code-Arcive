@@ -141,6 +141,7 @@ nav {
   align-items: center;
   height: 120px;
   background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
 }
 
 .Con {
@@ -183,10 +184,9 @@ nav {
 }
 
 .logo {
-  font-size: 100px;
   color: red;
   height: 100px;
-  word-spacing: 20px;
+  word-spacing: 15px;
 }
 
 .li {
@@ -311,9 +311,9 @@ h2 {
   height: 5px;
   margin: 0 0 5px;
   background-color: red;
-}
+  }
 
-body{
+body {
   margin: 0;
   padding: 0;
   background-color: black;
@@ -322,7 +322,7 @@ body{
   font-family: sans-serif;
 }
 
-.loginbox{
+.loginbox {
   width: 320px;
   height: 420px;
   background: #000;
@@ -330,12 +330,12 @@ body{
   top: 50%;
   left: 50%;
   position: absolute;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   box-sizing: border-box;
   padding: 70px 30px;
 }
 
-.avatar{
+.avatar {
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -344,26 +344,26 @@ body{
   left: calc(50% - 50px);
 }
 
-h1{
+h1 {
   margin: 0;
   padding: 0 0 20px;
   text-align: center;
   font-size: 22px;
 }
 
-.loginbox p{
+.loginbox p {
   margin: 0;
   padding: 0;
   font-weight: bold;
 }
 
-.loginbox input{
+.loginbox input {
   width: 100%;
   margin-bottom: 20px;
 }
 
-.loginbox input[type="text"], input[type="password"]
-{
+.loginbox input[type="text"],
+input[type="password"] {
   border: none;
   border-bottom: 1px solid #fff;
   background: transparent;
@@ -372,8 +372,8 @@ h1{
   color: #fff;
   font-size: 16px;
 }
-.loginbox input[type="submit"]
-{
+
+.loginbox input[type="submit"] {
   border: none;
   outline: none;
   height: 40px;
@@ -382,28 +382,47 @@ h1{
   font-size: 18px;
   border-radius: 20px;
 }
-.loginbox input[type="submit"]:hover
-{
+
+.loginbox input[type="submit"]:hover {
   cursor: pointer;
   background: gold;
   color: #000;
 }
-.loginbox a{
+
+.loginbox a {
   text-decoration: none;
   font-size: 12px;
   line-height: 20px;
   color: darkgrey;
 }
 
-.loginbox a:hover
-{
+.loginbox a:hover {
   color: gold;
 }
 
-@media screen and (max-width:768px) and (min-width:480px){
+@media screen and (max-width:768px) {
   body {
+    padding: 0;
+    margin: 0;
     display: flex;
-    
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 
+  ul {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   padding-right: 0px;
+   padding-top: 60px;
+     }
+     nav {
+       height: 400px;
+     }
+     .FYI {
+       padding-top: 150px;
+     }
+     .burger {
+      margin-right: 30px;
+     }
 }
