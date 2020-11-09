@@ -9,7 +9,7 @@
   background-image: url("Images/GrePCDeals.jpg");
   background-repeat: repeat;
   background-size: 50%;
-}
+  }
 
 .bg3 {
   background-image: url("Images/GrePCAllAboutU.jpg");
@@ -101,7 +101,13 @@
   list-style-type: none;
 }
 
-.logo h1 {
+.logo  {
+  font-size: 100px;
+  color: red;
+  height: 100px;
+}
+
+.login-logo {
   font-size: 100px;
   color: red;
   height: 100px;
@@ -151,6 +157,7 @@ nav {
   color: white;
   font-size: 40px;
   text-align: right;
+  padding-top: 60px;
 }
 
 .Email {
@@ -200,6 +207,13 @@ nav {
 }
 
 .FYI {
+  color: white;
+  font-size: 60px;
+  font-weight: bolder;
+  padding: 32px;
+}
+
+.login-FYI {
   color: white;
   font-size: 60px;
   font-weight: bolder;
@@ -421,7 +435,7 @@ input[type="password"] {
     flex-direction: column;
     flex-wrap: wrap;
     padding-right: 0px;
-    padding-top: 150px;
+    padding-top: 110px;
     padding-left: 10px;
   }
 
@@ -431,6 +445,11 @@ input[type="password"] {
 
   .FYI {
     padding-top: 150px;
+  }
+
+  .login-FYI {
+    padding-top: 150px;
+    display: none;
   }
 
   .burger {
@@ -448,5 +467,10 @@ input[type="password"] {
   .logo {
     font-size: 40px;
     word-spacing: 20px;
+  }
+  .login-logo {
+    font-size: 40px;
+    word-spacing: 20px;
+    display: none;
   }
 }
