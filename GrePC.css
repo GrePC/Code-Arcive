@@ -9,7 +9,7 @@
   background-image: url("Images/GrePCDeals.jpg");
   background-repeat: repeat;
   background-size: 50%;
-  }
+}
 
 .bg3 {
   background-image: url("Images/GrePCAllAboutU.jpg");
@@ -101,7 +101,7 @@
   list-style-type: none;
 }
 
-.logo  {
+.logo {
   font-size: 100px;
   color: red;
   height: 100px;
@@ -128,27 +128,10 @@ a {
   text-decoration: none;
 }
 
-.a {
-  background-color: rgba(99, 99, 99, 0.5);
-  color: red;
-  width: 100%;
-  height: 70px;
-  border-radius: 45px;
-  word-spacing: 20px;
-}
-
-.a :hover {
-  color: rgb(99, 99, 99);
-  width: 100%;
-  height: 70px;
-  border-radius: 45px;
-}
-
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 120px;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0;
 }
@@ -181,7 +164,7 @@ nav {
   justify-content: space-around;
   width: 50%;
   list-style-type: none;
-
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .nav-links a {
@@ -206,12 +189,17 @@ nav {
   list-style: none;
 }
 
+.skip {
+  height: 30px;
+}
+
 .FYI {
   color: white;
   font-size: 60px;
   font-weight: bolder;
   padding: 32px;
-}
+background-color:rgba(0, 0, 0, 0.5);
+  }
 
 .login-FYI {
   color: white;
@@ -441,7 +429,7 @@ input[type="password"] {
 
   nav {
     height: 200px;
-  }
+      }
 
   .FYI {
     padding-top: 150px;
@@ -464,13 +452,20 @@ input[type="password"] {
   .select-box {
     padding-bottom: 20%;
   }
+
   .logo {
     font-size: 40px;
     word-spacing: 20px;
   }
+
   .login-logo {
     font-size: 40px;
     word-spacing: 20px;
     display: none;
+  }
+
+  .nav-links a{
+    font-size: 19.5px;
+    word-spacing: 3px;
   }
 }
