@@ -415,6 +415,10 @@ input[type="password"] {
 .Email {
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+.auction-nudge {
+  background-color: rgba(0, 0, 0, 0.7)
+}
 @media screen and (max-width:768px) {
   body {
     padding: 0;
