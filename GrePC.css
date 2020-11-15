@@ -176,6 +176,10 @@ nav {
   list-style-type: none;
 }
 
+.nav-links a:active {
+  color: red;
+}
+
 .logo {
   color: red;
   height: 75px;
