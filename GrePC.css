@@ -423,6 +423,41 @@ input[type="password"] {
 .auction-nudge {
   background-color: rgba(0, 0, 0, 0.7)
 }
+
+div#auction-nudge-items a {
+  color: red;
+}
+
+div#auction-nudge-items div#an-search-submit {
+	background-color: black;
+	color: white;
+}	
+
+div#auction-nudge-items div#an-search-box {
+	border-color: white;
+}
+
+div#auction-nudge-items ul.an-page-wrap {
+  background: none;
+}
+
+div#auction-nudge-items ul.an-page-wrap li {
+  color: white;
+}
+
+div#auction-nudge-items p.no-items {
+  display: none;
+}
+
+div .an-price, .an-ends {
+  color: white;
+}
+
+#auction-nudge-items .image-container img {
+  /* Change this number to match the specified the 'image size' value */
+  width: 200px !important; 
+}
+
 @media screen and (max-width:768px) {
   body {
     padding: 0;
