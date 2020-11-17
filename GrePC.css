@@ -426,6 +426,7 @@ input[type="password"] {
 
 div#auction-nudge-items a {
   color:white;
+  font-size: 23px;
 }
 
 div#auction-nudge-items div#an-search-submit {
@@ -459,7 +460,7 @@ div#auction-nudge-items .an-view a {
 
 #auction-nudge-items .image-container img {
   /* Change this number to match the specified the 'image size' value */
-  width: 200px !important; 
+  width: 250px !important; 
 }
 
 @media screen and (max-width:768px) {
