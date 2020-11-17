@@ -508,6 +508,10 @@ div#auction-nudge-items .an-view a {
     padding-bottom: 20%;
   }
 
+  div .selected {
+    width: 100%;
+  }
+
   .logo {
     font-size: 40px;
     word-spacing: 20px;
