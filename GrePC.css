@@ -453,6 +453,10 @@ div .an-price, .an-ends {
   color: white;
 }
 
+div#auction-nudge-items .an-view a {
+  color: red;
+}
+
 #auction-nudge-items .image-container img {
   /* Change this number to match the specified the 'image size' value */
   width: 200px !important; 
