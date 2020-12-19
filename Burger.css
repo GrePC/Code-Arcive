@@ -116,3 +116,23 @@
   .menu-item:nth-child(5) {
     transition-delay: 0.5s;
   }
+
+/* Trying to fix how content is displayed on smaller screen. 11/21/2020 */
+  @media screen and (max-width:768px) {
+    body {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      font-size: 100%;
+    }
+
+    a.nav-link {
+      padding-top: 200px;
+    }
+
+    nav.menu-nav.show {
+      background-size: cover;
+    }
+  }  
